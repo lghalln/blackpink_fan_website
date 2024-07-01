@@ -915,7 +915,7 @@ h1 {
 
     .card-slider .holder-slider {
         height: 100px;
-        width: 70px; /* Example of adjusting size for smaller screens */
+        width: 70px;
     }
 }
 @media (max-width: 600px){
@@ -949,7 +949,7 @@ h1 {
 
     .slider .list2-slider .holder-slider .info-slider {
         left: 5%;
-        width: 90%; 
+        width: 90%;
         max-width: none; 
     }
 
@@ -963,13 +963,13 @@ h1 {
         bottom: 40px;
         display: flex;
         flex-wrap: wrap; 
-        gap: 10px;
+        gap: 10px; 
         padding: 0 2%;
         justify-content: space-between; 
     }
 
     .card-slider .holder-slider {
-        flex: 1 0 calc(20% - 5px); 
+        flex: 1 0 calc(20% - 5px);
     }
 }
 
