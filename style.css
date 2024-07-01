@@ -939,7 +939,7 @@ h1 {
 
     .card-slider .holder-slider {
         height: 80px;
-        width: 60px; /* Example of adjusting size for smaller screens */
+        width: 60px; 
     }
 }
 @media (max-width: 400px) {
@@ -949,8 +949,8 @@ h1 {
 
     .slider .list2-slider .holder-slider .info-slider {
         left: 5%;
-        width: 90%; /* Adjusted width to fit better on smaller screens */
-        max-width: none; /* Resetting max-width if needed */
+        width: 90%; 
+        max-width: none; 
     }
 
     .slider .list2-slider .holder-slider .info-slider p {
@@ -962,15 +962,14 @@ h1 {
         left: 2px;
         bottom: 40px;
         display: flex;
-        flex-wrap: wrap; /* Allows cards to wrap into multiple lines */
-        gap: 10px; /* Adjust gap between cards */
+        flex-wrap: wrap; 
+        gap: 10px;
         padding: 0 2%;
-        justify-content: space-between; /* Distributes items evenly */
+        justify-content: space-between; 
     }
 
     .card-slider .holder-slider {
-        flex: 1 0 calc(20% - 5px); /* Adjust width for 4 cards per row, considering gap */
-        /* You may need to adjust width calculation based on gap and container padding */
+        flex: 1 0 calc(20% - 5px); 
     }
 }
 
