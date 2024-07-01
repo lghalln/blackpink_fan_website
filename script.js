@@ -94,7 +94,6 @@ prev.onclick = function(){
 };
 
 function showSlider(){
-    // Remove active class from all slides
     holderSlides.forEach(slide => {
         slide.classList.remove('active-slider');
     });
@@ -102,7 +101,6 @@ function showSlider(){
         slide.classList.remove('active-slider');
     });
 
-    // Add active class to the current slide
     items[itemActive].classList.add('active-slider');
     thumbnails[itemActive].classList.add('active-slider');
     holderSlides[itemActive].classList.add('active-slider');
@@ -121,7 +119,6 @@ thumbnails.forEach((thumbnail, index) => {
     });
 });
 
-// Initial start of auto-rotation
 refreshInterval = setInterval(() => {
     next.click();
 }, 5000);
